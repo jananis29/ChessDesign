@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(206, 178, 231);
+}
+table{
+    margin: auto;
+    box-shadow: 0 0 5px 5px;
+}
+td{
+    padding: 50px;
+    background-color: white;
+}
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even)
+{
+    background-color: black;
+}
